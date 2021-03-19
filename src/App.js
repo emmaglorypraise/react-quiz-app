@@ -69,7 +69,8 @@ const resetQuiz = ' ';
       score when the user has answered all the questions */}
 			{showScore ? (
 				<div className='score-section'>You scored {score} out of {questions.length}
-				    <button className='reset-button' onClick={() => resetQuiz()}>Reset</button>
+				    <button className='reset-button' >Reset</button>
+					/* onClick={() => resetQuiz()} */
 				</div>
 			) : (
 				<>
